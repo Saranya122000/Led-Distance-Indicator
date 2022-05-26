@@ -2,5 +2,5 @@ Our project aim is to assist the driver to indicate a distance of the objects ne
 Using the LED distance indicator, we can avoid  accidents while parking. If any objects like walls, other vehicles are detected near the user’s car, the LED distance indicator sends the alert signal visually to the user.The objects near the user’s car is detected by the ultrasonic sensor and sends the alert message to the user visually by switching on of the led. In our model, there are three different colored leds to indicate how much distance between the car and the object. If the object is between the distance 20 cm and 30 cm from the user’s car then the LED1(green) will glow. If the object is between the distance 5 cm and 20 cm from the user’s car then the LED2(red) will glow. If the object is within the distance 5 cm  from the car then theLED3(yellow) will glow. Thus, the led distance indicator can detect the obstacle near the user’s car and alert the user by the leds accordingly.
 
 Uploaded files:
-led.uno - Code file
+led.ino - Code file
 Report - contains detailed description of the project,components required,schematic diagram,code and plagiarism report
