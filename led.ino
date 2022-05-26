@@ -33,6 +33,8 @@ void loop()
   distance = (duration/2) / 28.5 ;
   Serial.println(distance);
  
+//if the object is between the distance 20 cm and 30 cm from the ultrasonic sensor
+//LED1 will glow
 
   if ( distance <=30 && distance>20)
   {
@@ -43,6 +45,10 @@ void loop()
   {
     digitalWrite(LED1, LOW);
   }
+  
+//if the object is between the distance 5 cm and 20 cm from the ultrasonic sensor
+//LED2 will glow
+
   if ( distance <= 20 && distance>5)
   {
     digitalWrite(LED2, HIGH);
@@ -52,6 +58,10 @@ void loop()
   {
     digitalWrite(LED2, LOW);
   }
+  
+ //if the object is within the distance 5 cm  from the ultrasonic sensor
+//LED3 will glow
+
   if ( distance <=5 )
   {
     digitalWrite(LED3, HIGH);
